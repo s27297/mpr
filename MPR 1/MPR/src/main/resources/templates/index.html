@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <thead>
+    <th>Id</th>
+    <th>Name</th>
+        <th>Color</th>
+    </thead>
+    <tbody>
+        <tr th:each="bike : ${bikes}">
+            <td th:text="${bike.id}"></td>
+            <td th:text="${bike.name}"></td>
+            <td th:text="${bike.color}"></td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

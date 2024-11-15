@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pjatk.MPR.RestAssuredBikeControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-09T09:22:47" hostname="GDA410-04" time="5.504">
+  <properties/>
+  <testcase name="testPostUser()" classname="com.pjatk.MPR.RestAssuredBikeControllerTest" time="5.504"/>
+  <system-out><![CDATA[{
+    "id": 3,
+    "name": "Artem",
+    "color": "Black"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

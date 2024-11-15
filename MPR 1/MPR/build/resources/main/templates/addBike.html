@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="#" th:action="@{/addBike}" th:object="${bike}">
+
+        <label>Name: </label>
+        <input type="text" name="name" th:field="*{name}" required>
+        <label>Color: </label>
+        <input type="text" name="color" th:filed="*{color}" required>
+        <input type="submit" name="add_Bike">
+
+</form>
+
+</body>
+</html>
